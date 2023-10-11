@@ -1,0 +1,84 @@
+.container-courses {
+  width: 100%;
+  height: 100vh;
+  margin: 0px;
+  padding: 20px;
+}
+
+.container-loading {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading-courses {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.container-courses-topics-elements {
+  min-height: 50%;
+  max-height: 50%;
+}
+
+.container-courses-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.container-topic-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.container-course {
+  width: 23%;
+  height: auto;
+  display: flex;
+  background-color: #e8e8e8;
+  box-shadow: 0.2px 3px 8px 2px #c9c9c9;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.body-car {
+  width: 90%;
+}
+
+.actions-card {
+  width: 10%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+i {
+  margin-bottom: 5px;
+}
+
+.title-card {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.text-card {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.tutor-course {
+  display: flex;
+  font-size: 14px;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+}
